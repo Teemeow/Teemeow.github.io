@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="css/stage2.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Accueil</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            </div>
+        </nav>
+    </head>
+
+    <body>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <p></p>
+                    <h1 class="m-5">Stage 2<sup>er</sup> année</h1>
+                    <h2>Contexte</h2>
+                    <div>
+                        <img src="Images/Logo_ComCompany_08.png" alt="Logo de Com & Company" class="w-50">                      
+                        <p>
+                            Du 3 janvier au 10 février 2023 j'ai effectué mon stage dans l'entreprise Com & Company qui est une agence web qui travail avec le groupe Valeur et Capital, groupe qui est 
+                            dans le domaine immobilier. Cette entrpirse se situe à Lyon (94 Quai Charles de Gaulle).
+                            Dans cette entreprise j'ai rejoint le service informatique qui développe les applications, ce service est répartie en plusieurs équipe via un systeme d'ilôt 
+                            de 4 à 6 personnes.
+                            Je suis arrivé dans l'entreprise pendant que le groupe changais de nom pour devenir Groupe Valority
+                        </p>
+                        <h3>Travail</h3>
+                        <p>
+                            Tous les jours vers 9h30 on effectuait un stand-up, le but était de lister les tâches faites la veille est les objectifs de la journée. Puis je travaillais sur la tâche 
+                            que l'on m'avait assigné, une fois fini je poussais mon code sur ma branche grâce à GitHub pour verification
+                        </p>   
+                    </div>
+                    <hr class="m-5">
+                    <div id="Missions/ Projet" class="contenu">
+                        <h2>Missions / Tâches</h2>      
+                        <p>
+                            1<sup>er</sup>Mission: Sur la page d'accueil de l'application <u>Gaia</u> application qui sert à la gestion des locations et au suivi des mandat de gestion, je devais ajouter deux nouvelles colonnes
+                            dans un listing et de permettre l'export sous excel de ce listing.
+                        </p>
+                        <p>Technologies utilisées:</p>
+                        <ul>
+                            <li>Laravel</li>
+                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                        </ul>
+                        <p>
+                            J'ai commencé par implémenter l'affichage en ajoutant une colone pour les gestionnaires et une pour la nature des lots(appatement, garage...).
+                        </p>
+                        <img src="Images/colone gestionnaire en plus.png" alt="Affichage des colonnes" class="w-50">
+                        <p>
+                            Puis j'ai implémenter le bouton d'export Excel grâce à <a href="https://laravel-excel.com/">Laravel Excel</a>
+                        </p>  
+                        
+                        
+                        <div class="row">
+                            <div class="col">
+                                <img src="Images/excel lots suspendus.png" alt="Affichage du bouton Excel" class="w-100"> 
+                            </div>
+                            <div class="col">
+                                <img src="Images/Export Excel V2.png" alt="Affichage du bouton Excel" class="w-100">
+                            </div>
+                        </div>
+                        <p>
+                            J'ai utilisé le Framework  Laravel, pour gérer l'affichage j'ai utilisé Bootstrap et jQuery pour le bouton. Quand j'avais fini de coder l'évolution j'ai crée une merge request
+                            pour que un membre de l'ilôt le regarde et fasse des retours dessus, j'ai ensuite traité les retours puis j'ai poussé le code sur ma branche.
+                        </p> 
+                        <img src="Images/Tableau vrai fin avec scroll.png" alt="Rendu finale du tableau" class="w-50">
+
+                        <p>
+                            2<sup>er</sup>Mission:Nouvelle évolution sur Gaia qui servait à ajouter un bail sur 
+                            le document envoiyer sur Juptier lors d'un ajout des état des lieux. Quand un état des lieux est ajouté un document est envoyé sur une autre application qui permet de centraliser les données (Jupiter)
+                            , lors de cette evoie de document il fallait que j'ajoute l'id du bail afin de le lier au document.
+                        </p>
+                        <p>Technologies utilisées:</p>
+                        <ul>
+                            <li>Laravel</li>
+                        </ul>
+                        <p>Pour commencer j'ai ajouter la saisie du bail d'un le formulaire d'ajout détat des lieux</p>
+                        
+                        
+                        <div class="row">
+                            <div class="col">
+                                <img src="Images/formulaire de base.png" alt="Formulaire avant modification"  class="w-100"> 
+                            </div>
+                            <div class="col">
+                                <img src="Images/edl final.png" alt="Formulaire après modification"  class="w-100">
+                            </div>
+                        </div>
+                        <p>Après la saisie j'ai géré l'envoie des données dans Jupiter et dans la base de donnéés</p>
+                        <img src="Images/colonne bail_id.png" alt="colone bail_id dans la base de données">
+                        <p>
+                            Ensuite j'ai crée une merge request, j'ai traité les retours puis j'ai mis ma branche en qualif qui est une branche de test, une fois les tests fait j'ai encore traité les retours.
+                        </p>
+                        <img src="Images/tableaux name pixel.png" alt="Listing des états des lieux" class="w-100">
+                    </div>               
+                    <hr class="m-5">      
+                    <div id="Bilan" class="contenu">
+                        <h2>Bilan</h2>
+                        <p>Mon stage à durée 6 semaine ce qui était court mais j'ai eu le temps d'apprendre sur différentes technologies comme Laravel, Bootstrap, jQuery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+      
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
