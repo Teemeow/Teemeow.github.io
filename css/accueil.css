@@ -10,3 +10,13 @@ p{
 img{
     width : 40%;
 }
+
+.test{
+    height: 30vw;
+    overflow:hidden;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    color: red;
+}

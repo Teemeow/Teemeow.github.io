@@ -5,25 +5,26 @@
     
     <link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Accueil</a>
+            <a class="navbar-brand" href="#"><i class="fa fa-home fa-fw fa-1x"></i> Accueil</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#Presentation">Présentation</a>
+                        <a class="nav-link active" aria-current="page" href="#Presentation"><i class="fa fa-user-circle" aria-hidden="true"></i> Présentation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#Parcours">Parcours</a>
+                        <a class="nav-link active" href="#Parcours"><i class="fa fa-briefcase m-1" aria-hidden="true"></i>Parcours</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#Experiences">Expériences</a>
+                        <a class="nav-link active" href="#Experiences"><i class="fa fa-code-fork m-1" aria-hidden="true"></i>Expériences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#Veille">Veille</a>
+                        <a class="nav-link active" href="#Veille"><i class="fa fa-book" aria-hidden="true"></i> Veille</a>
                     </li>
                 </ul>
             </div>
@@ -37,7 +38,7 @@
             <div class="col">
                 <h1>Présentation</h1>
                 <p class="h1 m-5">
-                    Timothé Iniama étudiant en BTS SIO au Lycée Ella Fitzgerald. 
+                    Timothé Iniama étudiant en développement d'application. 
                 </p>
                 <hr class="m-5">
                 <div id="Parcours" class="m-5">
@@ -132,10 +133,37 @@
                 <div id="Experiences">
                     <h1>Expériences / Projets</h1>
                     <h3>Stages</h3>
-                    <img id="COM" src="Images/Logo_ComCompany_08.png" alt="Logo de Com & Company" class="w-25"> 
+                        
+                    <div id="CarouselCC" class="carousel slide" data-ride="carousel">    
+           
+                        <div class="carousel-inner">
+                            <div class="test carousel-item active">
+                              <img src="Images/Logo_ComCompany_08.png" class="d-block w-100" alt="Image 1">
+                            </div>
+                            <div class="test carousel-item">
+                              <img src="Images/cité_international.jpg" class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="test carousel-item">
+                              <img src="Images/tableaux name pixel.png" class="d-block w-100" alt="Image 3">
+                            </div>
+                            <div class="test carousel-item">
+                                <img src="Images/Tableau vrai fin avec scroll.png" class="d-block w-100" alt="Image 3">
+                              </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#CarouselCC" role="button" data-slide="prev">
+                            <span class="carousel-control-prev" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#CarouselCC" role="button" data-slide="next">
+                            <span class="carousel-control-next" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    
                     <p>
-                        <a href="https://teemeow.github.io/Stage1">Développeur Stagiaire — Com & Company</a>, Lyon
-                        <br>De mai 2022 à juillet 2022
+                        Développeur Stagiaire — Com & Company, Lyon
+                        <br><a href="https://teemeow.github.io/Stage1">De mai 2022 à juillet 2022</a>
                         <br>Ajout de fonctionnalités sur plusieurs applications (PHP, Laravel, VueJS, JIRA, wamp)
                     </p>
                     <p>
@@ -143,10 +171,37 @@
                         <br>Évolutions sur une application (PHP, Laravel, Bootstrap, JIRA, wamp)
                     </p>
                     <h3>Projet</h3>
-                    <img id="Gedimat" src="Images/gedimat.png" alt="Logo de Gedimat" class="w-25">
+
+                    <div id="CarouselGe" class="carousel slide" data-ride="carousel">    
+           
+                        <div class="carousel-inner">
+                            <div class="test carousel-item active">
+                                <img id="Gedimat" src="Images/gedimat.png" alt="Logo de Gedimat" class="d-block w-100">
+                            </div>
+                            <div class="test carousel-item">
+                              <img src="Images/participation2.png" class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="test carousel-item">
+                              <img src="Images/saisie code.png" class="d-block w-100" alt="Image 3">
+                            </div>
+                            <div class="test carousel-item">
+                                <img src="Images/saisie vote.png" class="d-block w-100" alt="Image 3">
+                              </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#CarouselGe" role="button" data-slide="prev">
+                            <span class="carousel-control-prev" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#CarouselGe" role="button" data-slide="next">
+                            <span class="carousel-control-next" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <
                     <p>
                         Projet Gedimat
-                        <br>De novembre 2022 à mai 2023
+                        <br><a href="https://teemeow.github.io/Gedimat">De novembre 2022 à mai 2023</a>
                         <br>Projet scolaire création d'apllications (web et mobile) pour un jeu concours (Laravel, Android, Gestion de projet)
                     </p>
                 </div>
@@ -160,6 +215,14 @@
                         <div class="col">
                             <p>Underscore <br><img src="Images/underscore-logo.jpg" alt="Logo Underscore" class="w-25"></p>
                         </div>   
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col">
+                            <p>DevTheory <br><img src="Images/devTheory_logo.jpg" alt="Logo DevTheory" class="w-25"></p>
+                        </div>
+                        <div class="col">
+                            <p>Parfaitement Web<br><img src="Images/parfaitement_web_logo.jpg" alt="Logo Parfaitement Web" class="w-25"></p>
                         </div>
                     </div>
                 </div>
