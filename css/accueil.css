@@ -16,7 +16,6 @@ img{
     overflow:hidden;
 }
 
-.carousel-control-prev,
-.carousel-control-next{
-    color: red;
-}
+.carousel-control-prev, .carousel-control-next {
+    color: black !important;
+  }

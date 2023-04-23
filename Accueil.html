@@ -4,6 +4,7 @@
     <title>Portfolio</title>
     
     <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
@@ -41,24 +42,46 @@
                     Timothé Iniama étudiant en développement d'application. 
                 </p>
                 <hr class="m-5">
-                <div id="Parcours" class="m-5">
-                    <h1>Parcours</h1>
-                    <img src="Images/galilée.png" alt="Photo du Lycée Galilée" class="w-50">
-                    <p>
-                        BAC STI2D (sciences et technologies de l'industrie et du développement durable) — Lycée Galilée (38), Vienne
-                        <br>2021
-                    </p>
-                    <img src="Images/lycée-ella-fitzgerald.jpg" alt="Photo du Lycée Ella Fitzgerald" class="w-50">
-                    <p>
-                        BTS SIO (Services informatiques aux organisations) — Lycée Ella Fitzgerald (38), St Saint Romain en Gal
-                        <br>Depuis 2021
-                        <br>Actuellement en formation (option SLAM)
-                    </p>
-                    <img src="Images/uit.jpg" alt="uit Lyon 1" class="w-50">
-                    <p>
-                        Licence Professionnelle Devops - IUT Lyon 1
-                        <br>Année prochaine
-                    </p>
+                <div id="Parcours">               
+                    <section class="experience pt-100 pb-100" id="experience">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-xl-8 mx-auto text-center">
+                              <div class="section-title">
+                                <h4>Parcours</h4>
+                                <p>Voici mon parcours scolaire.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <ul class="timeline-list">
+                                  <li>
+                                    <div class="timeline_content">
+                                        <img src="Images/galilée.png" alt="Photo du Lycée Galilée" class="w-75">
+                                        <h4>2019-2021</h4>
+                                        <p>(sciences et technologies de l'industrie et du développement durable) option SIN (systèmes d'information et numérique)<br>Lycée Galilée (38), Vienne</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="timeline_content">
+                                        <img src="Images/lycée-ella-fitzgerald.jpg" alt="Photo du Lycée Ella Fitzgerald" class="w-75">
+                                        <h4>2021-2023</h4>
+                                        <p>BTS SIO (Services informatiques aux organisations) option SLAM (Solutions Logicielles et Applications Métiers) — Lycée Ella Fitzgerald (38), St Saint Romain en Gal</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="timeline_content">
+                                        <img src="Images/uit.jpg" alt="uit Lyon 1" class="w-75">
+                                        <h4>2023-2024</h4>
+                                        <p>Licence Professionnelle : Développeur d'application d'entreprise, administrateur de systèmes d'information (DEVOPS) - IUT Lyon </p>
+                                    </div>
+                                  </li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
                 </div>
                 <hr class="m-5">
                 <div id="Presentation">
@@ -133,96 +156,125 @@
                 <div id="Experiences">
                     <h1>Expériences / Projets</h1>
                     <h3>Stages</h3>
-                        
-                    <div id="CarouselCC" class="carousel slide" data-ride="carousel">    
-           
-                        <div class="carousel-inner">
-                            <div class="test carousel-item active">
-                              <img src="Images/Logo_ComCompany_08.png" class="d-block w-100" alt="Image 1">
+                    <div class="card">
+                        <div class="card-header">
+                            <div id="CarouselCC" class="carousel slide" data-ride="carousel">    
+                                <div class="carousel-inner">
+                                    <div class="test carousel-item active">
+                                      <img src="Images/Logo_ComCompany_08.png" class="d-block w-100" alt="Image 1">
+                                    </div>
+                                    <div class="test carousel-item">
+                                      <img src="Images/cité_international.jpg" class="d-block w-100" alt="Image 2">
+                                    </div>
+                                    <div class="test carousel-item">
+                                      <img src="Images/tableaux name pixel.png" class="d-block w-100" alt="Image 3">
+                                    </div>
+                                    <div class="test carousel-item">
+                                        <img src="Images/Tableau vrai fin avec scroll.png" class="d-block w-100" alt="Image 3">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselCC" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselCC" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <div class="test carousel-item">
-                              <img src="Images/cité_international.jpg" class="d-block w-100" alt="Image 2">
-                            </div>
-                            <div class="test carousel-item">
-                              <img src="Images/tableaux name pixel.png" class="d-block w-100" alt="Image 3">
-                            </div>
-                            <div class="test carousel-item">
-                                <img src="Images/Tableau vrai fin avec scroll.png" class="d-block w-100" alt="Image 3">
-                              </div>
-                          </div>
                         </div>
-                        <a class="carousel-control-prev" href="#CarouselCC" role="button" data-slide="prev">
-                            <span class="carousel-control-prev" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a class="carousel-control-next" href="#CarouselCC" role="button" data-slide="next">
-                            <span class="carousel-control-next" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="card-body">
+                            <p>
+                                Développeur Stagiaire — Com & Company, Lyon
+                                <br><a href="https://teemeow.github.io/Stage1">De mai 2022 à juillet 2022</a>
+                                <br>Ajout de fonctionnalités sur plusieurs applications (PHP, Laravel, VueJS, JIRA, wamp)
+                            </p>
+                            <p>
+                                <a href="https://teemeow.github.io/Stage2">De janvier 2023 à février 2023</a>
+                                <br>Évolutions sur une application (PHP, Laravel, Bootstrap, JIRA, wamp)
+                            </p>
+                        </div>
                     </div>
                     
-                    <p>
-                        Développeur Stagiaire — Com & Company, Lyon
-                        <br><a href="https://teemeow.github.io/Stage1">De mai 2022 à juillet 2022</a>
-                        <br>Ajout de fonctionnalités sur plusieurs applications (PHP, Laravel, VueJS, JIRA, wamp)
-                    </p>
-                    <p>
-                        <a href="https://teemeow.github.io/Stage2">De janvier 2023 à février 2023</a>
-                        <br>Évolutions sur une application (PHP, Laravel, Bootstrap, JIRA, wamp)
-                    </p>
-                    <h3>Projet</h3>
-
-                    <div id="CarouselGe" class="carousel slide" data-ride="carousel">    
-           
-                        <div class="carousel-inner">
-                            <div class="test carousel-item active">
-                                <img id="Gedimat" src="Images/gedimat.png" alt="Logo de Gedimat" class="d-block w-100">
+                    
+                    
+                    <h3 class="m-5">Projet</h3>
+                    <div class="card">
+                        <div class="card-header">
+                            <div id="CarouselGe" class="carousel slide" data-ride="carousel">    
+                                <div class="carousel-inner">
+                                    <div class="test carousel-item active">
+                                        <img id="Gedimat" src="Images/gedimat.png" alt="Logo de Gedimat" class="d-block w-100">
+                                    </div>
+                                    <div class="test carousel-item">
+                                      <img src="Images/participation2.png" class="d-block w-100" alt="Image 2">
+                                    </div>
+                                    <div class="test carousel-item">
+                                      <img src="Images/saisie code.png" class="d-block w-100" alt="Image 3">
+                                    </div>
+                                    <div class="test carousel-item">
+                                        <img src="Images/saisie vote.png" class="d-block w-100" alt="Image 3">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#CarouselGe" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true" id="o"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#CarouselGe" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <div class="test carousel-item">
-                              <img src="Images/participation2.png" class="d-block w-100" alt="Image 2">
-                            </div>
-                            <div class="test carousel-item">
-                              <img src="Images/saisie code.png" class="d-block w-100" alt="Image 3">
-                            </div>
-                            <div class="test carousel-item">
-                                <img src="Images/saisie vote.png" class="d-block w-100" alt="Image 3">
-                              </div>
-                          </div>
                         </div>
-                        <a class="carousel-control-prev" href="#CarouselGe" role="button" data-slide="prev">
-                            <span class="carousel-control-prev" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a class="carousel-control-next" href="#CarouselGe" role="button" data-slide="next">
-                            <span class="carousel-control-next" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    <
-                    <p>
-                        Projet Gedimat
-                        <br><a href="https://teemeow.github.io/Gedimat">De novembre 2022 à mai 2023</a>
-                        <br>Projet scolaire création d'apllications (web et mobile) pour un jeu concours (Laravel, Android, Gestion de projet)
-                    </p>
+                        <div class="card-body">
+                            <p>
+                                Projet Gedimat
+                                <br><a href="https://teemeow.github.io/Gedimat">De novembre 2022 à mai 2023</a>
+                                <br>Projet scolaire création d'apllications (web et mobile) pour un jeu concours (Laravel, Android, Gestion de projet)
+                            </p>
+                        </div>
+                    </div>                                                          
                 </div>
-                <hr class="m-5">
+                <hr class="m-5">            
                 <div id="Veille" class="m-5">
                     <h1 class="m-5">Veille technologique</h1>
-                    <div class="row">
-                        <div class="col">                       
-                            <p>Youtube <br><img src="Images/youtube_logo.png" alt="Logo Youtube" class="w-25"></p>
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-header">
+                                <img class="card-img-top" src="Images/youtube_logo.png" alt="Card image cap">
+                            </div>
+                          
+                            <div class="card-body">
+                                <h5 class="card-title">Youtube</h5>
+                                <p class="card-text">Source principale pour ma veille.</p>
+                            </div>
                         </div>
-                        <div class="col">
-                            <p>Underscore <br><img src="Images/underscore-logo.jpg" alt="Logo Underscore" class="w-25"></p>
-                        </div>   
+                        <div class="card">
+                            <div class="card-header">
+                                <img class="card-img-top" src="Images/underscore-logo.jpg" alt="Card image cap">
+                            </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Underscore</h5>
+                            <p class="card-text">Le talk-show des passionnés de l'IT.</p>
+                          </div>
                         </div>
-                    </div>
-                    <div class="row mb-5">
-                        <div class="col">
-                            <p>DevTheory <br><img src="Images/devTheory_logo.jpg" alt="Logo DevTheory" class="w-25"></p>
+                        <div class="card">
+                            <div class="card-header">
+                                <img class="card-img-top" src="Images/devTheory_logo.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">DevTheory</h5>
+                              <p class="card-text">Chaine sur les actualités de JS.</p>
+                            </div>
                         </div>
-                        <div class="col">
-                            <p>Parfaitement Web<br><img src="Images/parfaitement_web_logo.jpg" alt="Logo Parfaitement Web" class="w-25"></p>
+                        <div class="card">
+                            <div class="card-header">
+                                <img class="card-img-top" src="Images/parfaitement_web_logo.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Parfaitement Web</h5>
+                                <p class="card-text">Chaine qui partage des outils ou astuces sur le developpement web.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
