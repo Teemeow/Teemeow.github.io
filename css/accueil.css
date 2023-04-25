@@ -11,7 +11,7 @@ img{
     width : 40%;
 }
 
-.test{
+.carousel-item{
     height: 30vw;
     overflow:hidden;
 }
@@ -19,3 +19,10 @@ img{
 .carousel-control-prev, .carousel-control-next {
     color: black !important;
   }
+.titre{
+    font-size: 600%;
+}
+
+.avant{
+    color:#224bc7;
+}
