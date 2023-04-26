@@ -6,6 +6,10 @@ p{
     font-size: 120%;
 
 }
+html{
+    scroll-behavior: smooth;
+    scroll-margin-top: 150px;
+}
 
 img{
     width : 40%;
@@ -24,5 +28,5 @@ img{
 }
 
 .avant{
-    color:#224bc7;
+    color:#ffc107;
 }
